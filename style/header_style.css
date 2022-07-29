@@ -1,0 +1,63 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 119.3%;
+    color: #323941;
+}
+
+/* background color section */
+
+.bg-gray {
+    background: #323941;
+}
+
+/* header */
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__inner {
+    max-width: 956px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.nav__link:hover,
+.header__contact-item:hover,
+.header__contact i:hover {
+    color: #009EFF;
+}
+
+.header__contact i {
+    color: #fff;
+}
+.header__contact-item {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__phone {
+    margin-left: 15px;
+}

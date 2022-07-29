@@ -1,0 +1,56 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 119.3%;
+    color: #323941;
+}
+
+/* background color section */
+
+.bg-gray {
+    background: #323941;
+}
+
+/* footer */
+
+.footer__inner {
+    max-width: 936px;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    height: 50px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 61%;
+}
+
+.footer__phone,
+.footer__address,
+.footer__coppywrite {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__address,
+.footer__coppywrite {
+    margin-left: 44px;
+}
